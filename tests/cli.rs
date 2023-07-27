@@ -93,7 +93,7 @@ fn pyra10() {
 
 #[test]
 fn pyraminus10() {
-    let mut cmd = Command::cargo_bin("pyra").unwrap();
+    let mut cmd = Command::cargo_bin("pyra2").unwrap();
     cmd.arg("-10");
     cmd.assert().success().stdout(
         "         *
